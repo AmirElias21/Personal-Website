@@ -1,6 +1,8 @@
 
 
 body{
+    text-align: center;
+
     background-image: url(backgroundImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,18 +13,48 @@ body{
     color:#444444;
     
 }
+
+h1, h2, h3, h4, p, li, td{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+td{
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+}
+
 header{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+div{
+    text-align: center;
+
+    background-color: rgba(0, 95, 155, 0.10);
+    
+    border-radius: 10px;
+    padding: 15px;
+    
+    width: 80%;
+    margin: 10px auto;
+
+}
+
 h1{
     color: #2E2E2E;
     text-align: center;
 }
 
 h2{
-    color: #2E2E2E;
+    color: #f9e8d8;
 }
 
 h3{
@@ -38,7 +70,7 @@ p{
 }
 
 li{
-    
+    text-align: left;
 }
 
 a{
